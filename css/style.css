@@ -517,8 +517,8 @@ h5 {
 }
 .stock {
 	min-height: 700px;
-	background: url(../img/background_stock.png) 0 0 no-repeat;
-	background-size: 100% auto;
+	background: url(../img/background_stock.png) 50% 0 no-repeat;
+	background-size: cover;
 }
 .stock_text {
 	max-width: 754px;
