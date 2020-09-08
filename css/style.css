@@ -78,7 +78,7 @@ body {
 	font-weight: normal;
 	font-style: normal;
 }
-@font-face{
+@font-face {
 	font-family: 'Open Sans';
 	src: url('../fonts/Open Sans l.ttf');
 	src: url('../fonts/Open Sans l.ttf') format('ttf'),
@@ -91,7 +91,6 @@ body {
 	max-width: 1920px;
 	height: 100%;
 	margin: 0 auto;
-
 }
 
 .head {
@@ -530,13 +529,15 @@ h5 {
 	text-align: center;
 }
 .stock_column__ {
-	margin: 0 auto;
+   margin: 0 auto;
+   padding: 0 20px;
 	max-width: 1146px;
 	display: flex;
 	justify-content: space-between;
 }
 .stock_column {
-	max-width: 362px;
+   /*max-width: 362px;*/
+   flex: 0 1 32.333%;
 }
 .stock_column_text {
 	font-family: Montserrat;
@@ -559,7 +560,8 @@ h5 {
 	background: #F4F4F4;
 }
 .question_title {
-	margin-top: 110px;
+   margin-top: 110px;
+   margin-bottom: 70px;
 }
 .question_title h2{
 	text-align: center;
@@ -631,7 +633,8 @@ h5 {
 
 .footer {
 	height: 570px;
-	background: #C7CAC3;
+   background: #C7CAC3;
+   padding: 0 30px;
 }
 .footer_content {
 	max-width: 1050px;
@@ -753,13 +756,16 @@ h5 {
 	    font-size: 16px;
 	    line-height: 21px;
 	    padding-bottom: 25px;
+   }
+   h2 {
+	   padding: 0 20px;
 	}
 	.head_info_text_link {
 	   padding: 18px 40px;
 	}
 	h3 {
 		font-size: 14px;
-		padding: 10px 10px 0 10px;
+		padding: 10px 20px 0 20px;
 	}
 	.features {
 		max-width: 728px;
@@ -774,15 +780,64 @@ h5 {
 	   line-height: 18px;
 	}
 	.features_info {
-    max-width: 30%;
-    padding-bottom: 30px;
+      max-width: 30%;
+      padding-bottom: 30px;
 	}
 	.features_info:nth-child(7) {
-    display: none;
+      display: none;
 	}
 	.features_info:nth-child(8) {
-    display: none;
-	}
+      display: none;
+   }
+   .order_text_info_main p {
+      line-height: 21px;
+  }
+  .comments_number__ {
+      margin: 0 50px;
+   }
+   .comments_number {
+      margin-bottom: 80px;
+  }
+  .order_text_info_main {
+      margin-left: 25px;
+  }
+  .stock_column_text {
+   font-size: 12px;
+   line-height: 18px;
+   }
+   .stock_column__ {
+      padding: 0 20px;
+  }
+  .stock_column {
+   flex: 0 1 32.333%;
+   }
+   .stock {
+      min-height: 463px;
+      background: url(../img/background_stock.png) center no-repeat;
+      background-size: cover;
+  }
+  .question_main {
+   padding: 0 30px;
+   }
+   .question_text {
+      font-size: 14px;
+  }
+  .question_subtitle {
+   font-size: 18px;
+   }
+   .stock_slash {
+      border: 2px solid #8B88DC;
+  }
+  .footer_content {
+   padding: 80px 20px 0 20px;
+   }
+   .footer_link_left {
+      flex: 0 1 40%;
+      margin-right: 0;
+  }
+  .footer_link_right {
+      flex: 0 1 60%;
+   }
 }
 
 
