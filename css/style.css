@@ -837,6 +837,10 @@ h5 {
   }
   .footer_link_right {
       flex: 0 1 60%;
+      flex: 0 1 60%;
+      flex: 0 1 60%;
+
+
    }
 }
 
